@@ -1,0 +1,24 @@
+{
+  "name": "pwa-video",
+  "version": "1.0.0",
+  "description": "Pwa compatible video player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hewerrr/pwa-video.git"
+  },
+  "keywords": [
+    "pwa",
+    "video",
+    "player"
+  ],
+  "author": "Dmitriy Krupin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hewerrr/pwa-video/issues"
+  },
+  "homepage": "https://github.com/Hewerrr/pwa-video#readme"
+}
