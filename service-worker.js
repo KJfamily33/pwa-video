@@ -1,4 +1,4 @@
-var cacheName = 'videoPWA-2';
+var cacheName = 'videoPWA-3';
 
 var filesToCache = [
     './',
