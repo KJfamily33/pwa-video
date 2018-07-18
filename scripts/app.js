@@ -1,12 +1,10 @@
 (function() {
     'use strict';
-        var elem = document.getElementById("myvideo");
-        
-        if (elem.requestFullscreen) {
-            elem.requestFullscreen();
-        } else if (elem.mozRequestFullScreen) {
-            elem.mozRequestFullScreen();
-        } else if (elem.webkitRequestFullscreen) {
-            elem.webkitRequestFullscreen();
-        }
+    //TODO: get video height and width, calculate based on viewport
+
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                 .register('./service-worker.js')
+                 .then(function() { console.log('Service Worker Registered'); });
+      }
 })();
