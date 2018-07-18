@@ -1,11 +1,11 @@
-var cacheName = 'videoPWA-1';
+var cacheName = 'videoPWA-2';
 
 var filesToCache = [
-    '/',
-    '/index.html',
-    '/scripts/app.js',
-    '/styles/style.css',
-    '/video/bunny.mp4'
+    './',
+    './index.html',
+    './scripts/app.js',
+    './styles/style.css',
+    './video/bunny.mp4'
 ];
 
 self.addEventListener('install', function (e) {
