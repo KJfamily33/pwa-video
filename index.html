@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Video PWA</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
-
+  <meta name="theme-color" content="#2F3BA2"/>
   <link rel="manifest" href="/manifest.json">
   <!-- for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,6 +18,9 @@
   <meta name="msapplication-TileColor" content="#404dbd">
 </head>
 <body>
+        <noscript>
+                <p>You browser does not support javascript.</p>
+        </noscript>
 
         <video id="myvideo" autoplay loop muted>
             <source src="./video/bunny.mp4" type="video/mp4" />
